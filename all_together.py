@@ -93,7 +93,7 @@ if option != "1" and option != "2" and option != "3" and option != "4" and optio
 if option == "1":
     with open("config.json") as conf:
         config = json.load(conf)
-        token = config["token"]
+        token = input["token"]
         image_path = config["icon path"]
         names = [
             "love",
